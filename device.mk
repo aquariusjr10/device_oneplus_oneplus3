@@ -244,6 +244,11 @@ PRODUCT_PACKAGES += \
 # Doze mode
 PRODUCT_PACKAGES += \
     CustomDoze
+		
+# Spectrum
+PRODUCT_PACKAGES += \
+   init.spectrum.rc \
+   init.spectrum.sh
 
 # DRM
 PRODUCT_PACKAGES += \
