@@ -109,6 +109,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# FaceUnlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
