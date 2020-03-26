@@ -490,7 +490,7 @@
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
 
-<<<<<<< HEAD
+
     <!-- For OnePlus 3/T -->
     <string name="config_cpu_temp_path">/sys/class/thermal/thermal_zone4/temp</string>
     <string name="config_battery_temp_path">/sys/class/power_supply/battery/temp</string>
@@ -501,10 +501,9 @@
 
     <!-- Smart Charing is available for OP3 -->
     <bool name="config_smartChargingAvailable">false</bool>
-=======
+
     <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
->>>>>>> e3f1690... Include Google Camera
 
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">true</bool>
@@ -533,4 +532,13 @@
 
     <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
     <bool name="config_inflateSignalStrength">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_smartChargingResumeValue" translatable="false">0</string>
 </resources>
