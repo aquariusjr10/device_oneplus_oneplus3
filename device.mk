@@ -104,6 +104,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# GoogleCamera
+$(call inherit-product-if-exists, packages/apps/GoogleCamera/oneplus3/config.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
