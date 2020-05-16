@@ -513,11 +513,6 @@ vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
 vendor/lib64/libssd.so
 
-# DRM - Widevine
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib/libwvhidl.so
-
 # Dirac - from Xiaomi
 vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
@@ -1004,3 +999,19 @@ vendor/lib/libwfdhaldsmanager.so|fdd9d1c5a7e75684ad2039e0ce24a1e5ee308833
 vendor/lib/libwfdhdcpcp.so|e459d08d32b9d93f498413172625861d3cc08c5c
 vendor/lib/libwfdmmservice.so|f180f820e507d7ed2676b0d66d6d63cb74458563
 vendor/lib/libwfdmodulehdcpsession.so|4800ec57f1a546200389b98221145a310c5d6aca
+
+# Widevine - IN2023 (QKQ1.191222.002)
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|65f79dd7dce028f9595d0f0c4a93bbb4c89c6180
+vendor/etc/firmware/widevine.b00|f3832049141cde7c688ebfbc75e121163c3be1de
+vendor/etc/firmware/widevine.b01|f574ef325bdd33eb8a35090b9974c38dc60a6926
+vendor/etc/firmware/widevine.b02|bb4439dd0a423583ed4008338e82e90ec2b1d5e6
+vendor/etc/firmware/widevine.b03|7e7aaebe4a46e9c79b974724e3c4d9a8012e6daa
+vendor/etc/firmware/widevine.b04|aef9303bdb9a6a170cb84eeed56e8a30d9f90746
+vendor/etc/firmware/widevine.b05|42569b50feaebef531e34d49a55dea8cde59bf3d
+vendor/etc/firmware/widevine.b06|ed177c9b17e1ea898296c8a518bd4f07bdf48745
+vendor/etc/firmware/widevine.b07|baa7b8ecf38abcf6b04ad85c9f4c36530e8fc9b2
+vendor/etc/firmware/widevine.mdt|fa84a0f6b2fc90812bac1d4f2cff9a4f16eaa8cd
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
+vendor/lib/liboemcrypto.so|7747d6c69404c4128534386393e069bf3993cf75
+vendor/lib/libwvhidl.so|3959312fdf6131dbbd194f42299bb941608c36ba
+vendor/lib64/liboemcrypto.so|6d03178c12b691e21ee84d85da42f5eb9ba8797a
