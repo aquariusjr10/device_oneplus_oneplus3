@@ -25,6 +25,7 @@ $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := pixys_oneplus3
 PRODUCT_DEVICE := oneplus3
