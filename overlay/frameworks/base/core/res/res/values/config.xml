@@ -415,8 +415,6 @@
 
     <!-- Minimum color temperature, in Kelvin, supported by Night display. -->
     <integer name="config_nightDisplayColorTemperatureMin">1200</integer>
-<<<<<<< HEAD
-=======
     
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
@@ -434,8 +432,9 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">83</integer>
-<!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">false</bool>
 
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
@@ -451,5 +450,4 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
->>>>>>> 46cb2ef... Add Dash charging and smart charging
 </resources>
