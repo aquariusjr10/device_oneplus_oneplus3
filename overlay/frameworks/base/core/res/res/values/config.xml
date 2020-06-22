@@ -491,12 +491,12 @@
     <bool name="config_hasDashCharger">true</bool>
 
     <!-- For OnePlus 3/T -->
-    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone4/temp</string>
-    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
-    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
-    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
-    <integer name="config_sysCPUTempMultiplier">10</integer>
-    <integer name="config_sysBatteryTempMultiplier">10</integer>
+    <string name="config_cpu_temp_path">/sys/class/thermal/thermal_zone4/temp</string>
+    <string name="config_battery_temp_path">/sys/class/power_supply/battery/temp</string>
+    <string name="config_gpu_clock_path">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_gpu_busy_path">/sys/kernel/gpu/gpu_busy</string>
+    <integer name="config_cpu_temp_multiplier">10</integer>
+    <integer name="config_battery_temp_multiplier">10</integer>
 
     <!-- Smart Charing is available for OP3 -->
     <bool name="config_smartChargingAvailable">true</bool>
