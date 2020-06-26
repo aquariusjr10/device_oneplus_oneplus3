@@ -36,3 +36,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:user/release-keys"
 
 TARGET_VENDOR := oneplus
+
+# Inherit some common Zenx stuff.
+ZENX_BUILD_TYPE := Official
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
