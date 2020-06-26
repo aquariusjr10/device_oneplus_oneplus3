@@ -516,4 +516,7 @@
     <string name="config_powersave_profile" translatable="false">2</string>
     <string name="config_screen_off_profile" translatable="false">2</string>
 
+    <!-- Sets the package name for device parts-->
+    <string name="config_device_parts_package_name" translatable="false">com.oneplus.settings.device</string>
+    <string name="config_device_parts_package_activity" translatable="false">com.oneplus.settings.device.DeviceSettingsActivity</string>
 </resources>
