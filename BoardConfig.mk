@@ -164,6 +164,10 @@ TARGET_INIT_VENDOR_LIB := //$(PLATFORM_PATH):libinit_oneplus3
 TARGET_RECOVERY_DEVICE_MODULES := libinit_oneplus3
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
+#ignore neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
+
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
